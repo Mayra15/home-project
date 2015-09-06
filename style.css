@@ -1,1 +1,17 @@
-style.css
+
+body {
+	background-color: white;
+}
+
+
+nav {
+	display: block;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	float: right;
+
+}
