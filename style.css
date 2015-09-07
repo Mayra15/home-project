@@ -41,7 +41,11 @@ nav ul li {
 }
 .carousel-caption h1, p {
 	color: white;
-	
+
+}
+
+.item {
+	max-height: 700px;
 }
 
 
