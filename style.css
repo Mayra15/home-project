@@ -41,13 +41,24 @@ nav p {
 }
 
 .carousel-caption {
-	padding-bottom: 380px;
+	/*padding-bottom: 600px; */
+	height: 500px;
+
 
 }
 
 .carousel-caption h1, p {
 	color: white;
 
+}
+
+.carousel-caption h1 {
+	text-transform: uppercase;
+}
+
+.carousel-caption h3 {
+	font-size: 15px;
+	text-transform: uppercase;
 }
 
 .leftcarousel-control .rightcarousel-control {
@@ -57,5 +68,7 @@ nav p {
 }
 .item {
 	max-height: 800px;
+}
+
 
 
