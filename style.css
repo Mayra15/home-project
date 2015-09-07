@@ -2,7 +2,7 @@
 body, ul, li {
 
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: helvetica; 
 	text-align: center;
 }
 
@@ -15,7 +15,7 @@ nav {
 	display: block;
 	background-color: #4c291c;
 	height: 65px;
-	margin-top: 2px;
+	margin-top: -12px;
 
 }
 
@@ -23,29 +23,39 @@ nav a {
 	text-decoration: none;
 	color: white;
 	font-size: 15px;
-	font-weight: 700;
-	padding: 0 15px;
+	font-weight: 400;
+	padding: 0 25px;
 	transition: opacity 500ms ease-out;
 }
 
 nav ul li {
 	display: inline;
 	float: right;
-	padding-top: 20px 20px 0 0;
+	padding: 20px 0;
 	text-transform: uppercase;
+}
+
+nav p {
+	display: inline;
+	float: left;
 }
 
 .carousel-caption {
 	padding-bottom: 380px;
 
 }
+
 .carousel-caption h1, p {
 	color: white;
 
 }
 
-.item {
-	max-height: 700px;
+.leftcarousel-control .rightcarousel-control {
+	top: 60px;
+	text-decoration: none;
+
 }
+.item {
+	max-height: 800px;
 
 
