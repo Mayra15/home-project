@@ -59,12 +59,12 @@ nav p {
 	text-transform: uppercase;
 }
 
-/*.left carousel-control {
-	top: 60px;
-	background: none;
-	border: 0;
 
-}*/
+#carousel-example-generic {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
 #carousel-example-generic .left {
 	background-image: none;
 	border: 0;
@@ -76,10 +76,15 @@ nav p {
 	border: 0;
 }
 
-
-.item {
-	max-height: 800px;
+.container-fluid p {
+	color: gray;
 }
+
+#carousel-example-generic img {
+	
+}
+
+
 
 
 
