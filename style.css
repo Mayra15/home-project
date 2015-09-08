@@ -25,7 +25,6 @@ nav a {
 	font-size: 15px;
 	font-weight: 400;
 	padding: 0 25px;
-	transition: opacity 500ms ease-out;
 }
 
 nav ul li {
@@ -41,7 +40,6 @@ nav p {
 }
 
 .carousel-caption {
-	/*padding-bottom: 600px; */
 	height: 500px;
 
 
@@ -61,14 +59,28 @@ nav p {
 	text-transform: uppercase;
 }
 
-.leftcarousel-control .rightcarousel-control {
+/*.left carousel-control {
 	top: 60px;
-	text-decoration: none;
+	background: none;
+	border: 0;
+
+}*/
+#carousel-example-generic .left {
+	background-image: none;
+	border: 0;
 
 }
+
+#carousel-example-generic .right {
+	background-image: none;
+	border: 0;
+}
+
+
 .item {
 	max-height: 800px;
 }
+
 
 
 
