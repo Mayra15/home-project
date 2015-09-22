@@ -4,6 +4,7 @@ body, ul, li {
 	margin: 0;
 	font-family: helvetica; 
 	text-align: center;
+	
 }
 
 
@@ -89,5 +90,21 @@ nav p {
 }
 
 
+.container-fluid1 p {
+	font-size: 14;
+	color: gray;
+}
 
+.one {
+	width: 700px;
+	float: center;
+	border-top: 3px solid #898686;
+}
 
+.two {
+
+	width: 400px;
+	float: center;
+	border-top: 1px solid gray;
+
+}
