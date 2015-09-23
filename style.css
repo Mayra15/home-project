@@ -4,6 +4,7 @@ body, ul, li {
 	margin: 0;
 	font-family: helvetica; 
 	text-align: center;
+	
 }
 
 
@@ -41,8 +42,6 @@ nav p {
 
 .carousel-caption {
 	height: 500px;
-
-
 }
 
 .carousel-caption h1, p {
@@ -65,11 +64,12 @@ nav p {
 	max-width: 1400px;
 	margin: 0 auto;
 }
+
 #carousel-example-generic .left {
 	background-image: none;
 	border: 0;
-
 }
+
 
 #carousel-example-generic .right {
 	background-image: none;
@@ -81,7 +81,6 @@ nav p {
 }
 
 #carousel-example-generic img {
-	
 }
 
 .spacer {
@@ -89,5 +88,39 @@ nav p {
 }
 
 
+.container-fluid1 p {
+	font-size: 14;
+	color: gray;
+}
 
+.one {
+	width: 700px;
+	float: center;
+	border-top: 1px solid #898686;
+}
 
+.two {
+
+	width: 300px;
+	float: center;
+	border-top: 1px solid gray;
+
+}
+
+.three {
+	width: 500px;
+	float: center;
+	border-top: 1px solid gray;
+}
+
+.comment i, p{
+	display: inline-block; 
+}
+
+.bottom {
+	display: inline-block;
+}
+
+.bottom p {
+	position: absolute;
+}
