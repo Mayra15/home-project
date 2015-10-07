@@ -95,7 +95,7 @@ nav p {
 
 .small-divider {
 	border-top: 1px solid #898686;
-	width: 400px;
+	width: 200px;
 	margin: 0 auto;
 }
 .one {
@@ -114,16 +114,16 @@ nav p {
 	text-align: center;
 }
 
-/*.spacer1 {
-	margin-top: 574px;
+.spacer1 {
+	margin-top: 200px;
 }
-*/
+
 .comment {
 	display: inline-block;
 }
 
 .end {
-	background-image: url(images/bottom.png);
+	background-image: url(images/toptier.png);
 	max-width: 100%;
 }
 
@@ -133,7 +133,7 @@ nav p {
 }
 
 footer {
-	background-image: url(images/footerimg.png);
+	background-image: url(images/bottomtier.png);
 	margin: 0 auto;
 	max-width: 100%;
 	max-height: 50px;
@@ -142,20 +142,21 @@ footer {
 footer p {
 	color: gray;
 	display: inline;
-	float: left;
 }
 
  nav footer ul, li {
-	margin: 0;
 	color: white;
 	text-decoration: none;
 	list-style-type: none;
 	display: inline;
-	padding: 0 25px;
 }
 
-footer li {
+
+/*footer li {
 	padding: 0 25px;
 	margin-top: 0 auto;
-}
+}*/
 
+.social {
+	color: #898686;
+}
