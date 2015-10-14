@@ -124,12 +124,13 @@ nav p {
 
 .end {
 	background-image: url(images/toptier.png);
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 
 .end p {
 	color: gray;
-	text-align: center;
+	/*text-align: center;*/
+	display: inline-block;
 }
 
 footer {
@@ -144,11 +145,13 @@ footer p {
 	display: inline;
 }
 
- nav footer ul, li {
+ footer ul, li {
 	color: white;
 	text-decoration: none;
 	list-style-type: none;
 	display: inline;
+	padding: 0 25px;
+	margin: 0 auto; 
 }
 
 
@@ -159,4 +162,17 @@ footer p {
 
 .social {
 	color: #898686;
+	border: 1px solid gray;
+	max-width: 1400px;
+	max-height: 400px;
+	display: inline;
+}
+
+.glyphicon {
+	float: right;
+	z-index: 1;
+}
+.glyphicon-menu-down {
+	padding-top: 50px;
+	margin-left:  50px;
 }
